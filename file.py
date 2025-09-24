@@ -8,6 +8,8 @@ database = 'YourDatabaseName'
 username = 'your_username'
 password = 'your_password'
 
+
+
 # Backup folder path
 backup_dir = r'C:\SQLBackups'
 
