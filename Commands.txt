@@ -1,0 +1,9 @@
+git add filename ---- this wil be added in stating area
+
+git commit -m "message like where to where copying" ---- to add in local repository
+
+git push -u origin branch name ---- to add in remote repository
+
+git checkout "another branch name" ---- to jump to another branch
+
+git checkout -b "new branch name"  ---- to create branch name
