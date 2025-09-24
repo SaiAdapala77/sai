@@ -1,0 +1,9 @@
+-- Full Database Backup Script
+BACKUP DATABASE [YourDatabaseName]
+TO DISK = N'C:\SQLBackups\YourDatabaseName_FULL_' 
+          + CONVERT(VARCHAR(8), GETDATE(), 112) + '_' 
+          + REPLACE(CONVERT(VARCHAR(8), GETDATE(), 108), ':', '') + '.bak'
+WITH FORMAT, INIT, 
+     NAME = N'Full Backup of YourDatabaseName',
+     SKIP, NOREWIND, NOUNLOAD, STATS = 10;
+GO
