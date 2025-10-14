@@ -1,3 +1,7 @@
+git init ---- to make a folder as git repo
+
+git status ---- to check what all file are there
+
 git add filename ---- this wil be added in stating area
 
 git commit -m "message like where to where copying" ---- to add in local repository
